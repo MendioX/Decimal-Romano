@@ -26,10 +26,11 @@ let llaves = Object.keys(romanValue);
 //console.log("k"+"hu")
 let str = "";
 descompuestos.forEach(item =>{
-let i =0;
+
 let itemAux = item;
 let match = 0;
 while(itemAux > 0){
+ let i =0;
 while(itemAux >= llaves[i]){
   match = llaves[i];
   
